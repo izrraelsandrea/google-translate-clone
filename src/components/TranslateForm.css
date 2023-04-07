@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child {
+  text-align: center;
+}
+.child select {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: solid 1px #1a73e8;
+  color: #1a73e8;
+  font-size: 14px;
+  height: 3rem;
+}
+.textbox {
+  height: 104px;
+  width: 340px;
+  border-top: solid 1px #cecdcd;
+  border-bottom: solid 1px #adadad;
+  border-left: solid 0.5px #cecdcd;
+  border-right: solid 0.5px #cecdcd;
+  color: #656565;
+  font-size: 14px;
+}
